@@ -1,0 +1,92 @@
+.btn {
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-primary { background-color: #1d4ed8; color: #ffffff; }
+.btn-primary:hover { background-color: #1e40af; }
+
+.btn-secondary { background-color: #e2e8f0; color: #1e293b; }
+.btn-secondary:hover { background-color: #cbd5e1; }
+
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.subject-tag {
+  display: inline-block;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 12px;
+  color: #475569;
+  background-color: #f8fafc;
+}
+
+.progress-track {
+  height: 10px;
+  background-color: #e2e8f0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #1d4ed8;
+  transition: width 0.3s ease;
+}
+
+.video-frame {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+}
+
+.tree-toggle {
+  cursor: pointer;
+  padding: 6px 0;
+  font-size: 14px;
+  color: #0f172a;
+}
+
+.tree-toggle:hover { color: #1d4ed8; }
+
+.tree-children {
+  margin-left: 14px;
+  padding-left: 10px;
+  border-left: 1px solid #e2e8f0;
+}
+
+.tree-node {
+  cursor: pointer;
+  padding: 6px 8px;
+  font-size: 14px;
+  border-radius: 6px;
+  color: #334155;
+}
+
+.tree-node:hover { background-color: #f1f5f9; }
+
+.tree-node.active { background-color: #dbeafe; color: #1e3a8a; font-weight: 600; }
+
+.tree-node.watched { color: #15803d; }
+
+.tree-node.tree-quiz { font-weight: 600; }
+
+.quiz-result {
+  background-color: #f0f9ff;
+  border: 1px solid #bae6fd;
+  border-radius: 6px;
+  padding: 10px 12px;
+  color: #075985;
+}
+
+.quiz-result-final {
+  background-color: #ecfdf5;
+  border: 1px solid #a7f3d0;
+  border-radius: 6px;
+  padding: 12px;
+}
